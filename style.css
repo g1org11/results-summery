@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-style: normal;
+}
+.your-results {
+  background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
+  box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+  border-radius: 0px 0px 32px 32px;
+  text-align: center;
+  /* margin-bottom: 24px; */
+}
+.result-conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 24px 57px 40px;
+}
+.result-conteiner h3 {
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #cac9ff;
+  margin-bottom: 24px;
+}
+.scores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 140px;
+  width: 140px;
+  background: linear-gradient(
+    180deg,
+    #4d21c9 0%,
+    rgba(37, 33, 201, 0) 100%,
+    rgba(37, 33, 201, 0) 100%
+  );
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+.main-score {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 72px;
+  text-align: center;
+  color: #ffffff;
+}
+.max-score {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #cac9ff;
+  mix-blend-mode: normal;
+  opacity: 0.52;
+}
+.result-conteiner h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+.result-conteiner .info {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #cac9ff;
+  width: 260px;
+}
+.summary-conteiner {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  /* gap: 16px; */
+  padding: 24px 30px 30px;
+}
+.summery-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #303b59;
+  margin-bottom: 24px;
+}
+.skills {
+  border-radius: 12px;
+  /* margin-bottom: 16px; */
+  background-color: #ffffff;
+}
+.skils-conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 0 16px; */
+  height: 56px;
+  padding: 0 18px;
+  border-radius: 12px;
+  margin-bottom: 14px;
+}
+.skill {
+  display: flex;
+  gap: 16px;
+  /* background-color: #ffffff; */
+}
+.one {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #ff5555;
+}
+.reaction {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ff5555;
+}
+.two {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #ffb21e;
+}
+.memory {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffb21e;
+}
+.three {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00bb8f;
+}
+.verbal {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00bb8f;
+}
+.four {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125d6;
+}
+.visual {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1125d6;
+}
+.results p {
+  font-size: 16px;
+  line-height: 21px;
+  text-align: right;
+  color: #303b59;
+}
+.results p span {
+  font-size: 16px;
+  line-height: 21px;
+  text-align: right;
+  color: #303b59;
+  opacity: 0.5;
+}
+button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  background-color: #303b59;
+  color: #ffffff;
+  border-radius: 128px;
+
+  border: none;
+  margin-top: 14px;
+  height: 56px;
+  width: 315px;
+
+  border-radius: 128px;
+}
+@media only screen and (min-width: 1024px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ecf2ff;
+  }
+  main {
+    display: flex;
+  }
+  .your-results {
+    border-radius: 32px;
+    box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+  }
+  .result-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 38px 54px 55px;
+  }
+  .summary-conteiner {
+    background-color: #ffffff;
+    box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+    border-radius: 32px;
+    padding: 38px 40px 46px 40px;
+  }
+  .result-conteiner {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 35px;
+  }
+  .scores {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 28px;
+  }
+  .main-score {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 72px;
+    margin-bottom: 5px;
+  }
+  .max-score {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .result-conteiner h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .result-conteiner .info {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .summery-title {
+    margin-bottom: 28px;
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .four {
+    margin-bottom: 40px;
+  }
+  .skill-p {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .results p {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .results p span {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
